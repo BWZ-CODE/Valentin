@@ -1,0 +1,118 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+    <body>
+        <section class="fondo-header">
+            <h1 class="inicio">Ute ya firmó</h1>
+            <button class="si "><a href="./amen.html">Amén</a></button>
+        </section>
+    </body>
+
+    <style>
+        body{
+    margin: 0;
+    font-family: 'Honk', system-ui;
+}
+
+
+
+
+.fondo-header {
+    height: 100vh;
+    background-image: url(./pics/firma.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
+    background-position-y:100px ;
+    position: relative;
+    
+
+  }
+  
+  .fondo-header:before {
+    
+    content: "";
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(0deg, rgba(205, 173, 122, 1) 0%, rgb(229, 137, 143) 75%, rgb(88, 23, 6) 90%);
+  }
+
+  
+  .inicioo{
+
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    height: 60px;
+    background:none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+
+  .inicio{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    height: 60px;
+    background:none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+
+  .si{
+    
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    height: 60px;
+    background-color: rgb(126, 105, 150);
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .no{
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    height: 60px;
+    background:none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 50%;
+    cursor: pointer;
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+    </style>
+</html>

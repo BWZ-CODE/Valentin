@@ -8,11 +8,13 @@ body{
 
 .fondo-header {
     height: 100vh;
-    background-image: url(./pics/fondo.png);
+    background-image: url(./pics/no.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
+    background-position-x: 0%;
     position: relative;
+
 
   }
   
@@ -29,7 +31,7 @@ body{
 
   .inicio{
     position: absolute;
-    left: 10%;
+    left: 30%;
     top: 40%;
     height: 60px;
     background:none;
@@ -38,24 +40,10 @@ body{
     font-weight: bold;
   }
 
-  .inicioo{
-
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    height: 60px;
-    background:none;
-    border-radius: 15px;
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-
-
   .si{
     font-family: 'Bebas Neue', sans-serif;
     position: absolute;
-    left: 10%;
+    left: 50%;
     top: 45%;
     height: 60px;
     background-color: rgb(126, 105, 150);
@@ -67,22 +55,8 @@ body{
     cursor: pointer;
   }
 
-  .no{
-    font-family: 'Bebas Neue', sans-serif;
-    position: absolute;
-    left: 30%;
-    top: 40%;
-    height: 60px;
-    background:none;
-    border-radius: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    top: 50%;
-    cursor: pointer;
-  }
-
   a{
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: #fff;
   }

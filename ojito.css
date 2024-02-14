@@ -8,7 +8,7 @@ body{
 
 .fondo-header {
     height: 100vh;
-    background-image: url(./pics/fondo.png);
+    background-image: url(./pics/ojito.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
@@ -37,20 +37,6 @@ body{
     font-size: 30px;
     font-weight: bold;
   }
-
-  .inicioo{
-
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    height: 60px;
-    background:none;
-    border-radius: 15px;
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-
 
   .si{
     font-family: 'Bebas Neue', sans-serif;
